@@ -1,4 +1,4 @@
-package org.promisedland.minecraft.utils;
+package org.promisedland.minecraft.eraauth.utils;
 
 public class Message {
     public static String getMessage(String key){

@@ -1,10 +1,9 @@
-package org.promisedland.minecraft.utils;
+package org.promisedland.minecraft.eraauth.utils;
 
-import org.promisedland.minecraft.EraAuth;
+import org.promisedland.minecraft.eraauth.EraAuth;
 
 import java.sql.*;
 import java.util.Arrays;
-import java.util.function.Supplier;
 
 public class DataBase {
     public static Connection connection;

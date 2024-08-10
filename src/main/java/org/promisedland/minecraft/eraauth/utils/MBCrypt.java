@@ -1,4 +1,4 @@
-package org.promisedland.minecraft.utils;
+package org.promisedland.minecraft.eraauth.utils;
 
 import org.mindrot.jbcrypt.BCrypt;
 

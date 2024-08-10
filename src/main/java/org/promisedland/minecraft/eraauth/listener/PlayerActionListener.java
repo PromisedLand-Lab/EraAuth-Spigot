@@ -1,17 +1,13 @@
-package org.promisedland.minecraft.listener;
+package org.promisedland.minecraft.eraauth.listener;
 
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerPreLoginEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
-import org.bukkit.event.player.PlayerMoveEvent;
-import org.promisedland.minecraft.manager.LoginManager;
-import org.promisedland.minecraft.utils.ConfigFiles;
-import org.promisedland.minecraft.utils.Message;
-import org.promisedland.minecraft.utils.MessageKey;
-
-import java.sql.SQLException;
+import org.promisedland.minecraft.eraauth.utils.Message;
+import org.promisedland.minecraft.eraauth.utils.MessageKey;
+import org.promisedland.minecraft.eraauth.manager.LoginManager;
 
 
 public class PlayerActionListener implements Listener {

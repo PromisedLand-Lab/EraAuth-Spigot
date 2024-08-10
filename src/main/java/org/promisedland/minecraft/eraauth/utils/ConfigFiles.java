@@ -1,14 +1,9 @@
-package org.promisedland.minecraft.utils;
+package org.promisedland.minecraft.eraauth.utils;
 
-import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.jetbrains.annotations.NotNull;
 
-import javax.annotation.Nonnull;
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 
 public class ConfigFiles {
     public static String ConfigPath = "plugins/EraAuth";

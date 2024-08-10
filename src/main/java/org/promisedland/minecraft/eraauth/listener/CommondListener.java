@@ -1,6 +1,5 @@
-package org.promisedland.minecraft.listener;
+package org.promisedland.minecraft.eraauth.listener;
 
-import net.md_5.bungee.api.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -8,10 +7,9 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerCommandPreprocessEvent;
-import org.jetbrains.annotations.NotNull;
-import org.promisedland.minecraft.manager.LoginManager;
-import org.promisedland.minecraft.manager.UserManager;
-import org.promisedland.minecraft.utils.Redis;
+import org.promisedland.minecraft.eraauth.manager.LoginManager;
+import org.promisedland.minecraft.eraauth.manager.UserManager;
+import org.promisedland.minecraft.eraauth.utils.Redis;
 
 public class CommondListener implements Listener, CommandExecutor {
     @EventHandler //用来拦截除了登录插件以外的指令

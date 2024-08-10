@@ -1,4 +1,4 @@
-package org.promisedland.minecraft.utils;
+package org.promisedland.minecraft.eraauth.utils;
 
 public enum MessageKey {
     KICK_UNRESOLVED_HOSTNAME("kick.unresolvedhostname");

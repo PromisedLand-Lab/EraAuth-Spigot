@@ -1,0 +1,12 @@
+name: EraLogin
+main: org.promisedland.minecraft.eraauth.EraAuth
+version: 1
+author: BatryCC
+
+commands:
+  login:
+    usage: "/login YOUR_PASSWORD"
+    description: "Login your account."
+  register:
+    usage: "/register YOUR_PASSWORD"
+    description: "Register your account."

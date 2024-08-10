@@ -1,4 +1,4 @@
-package org.promisedland.minecraft.listener;
+package org.promisedland.minecraft.eraauth.listener;
 
 
 import org.bukkit.event.EventHandler;
@@ -7,7 +7,7 @@ import org.bukkit.event.inventory.InventoryOpenEvent;
 import org.bukkit.event.player.PlayerChatEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
-import org.promisedland.minecraft.manager.LoginManager;
+import org.promisedland.minecraft.eraauth.manager.LoginManager;
 
 public class Canceller implements Listener {
     @EventHandler

@@ -1,4 +1,4 @@
-package org.promisedland.minecraft.utils;
+package org.promisedland.minecraft.eraauth.utils;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;

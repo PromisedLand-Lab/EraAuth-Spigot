@@ -1,4 +1,4 @@
-package org.promisedland.minecraft.utils;
+package org.promisedland.minecraft.eraauth.utils;
 
 public class Config {
     public static String getConfig(String key){

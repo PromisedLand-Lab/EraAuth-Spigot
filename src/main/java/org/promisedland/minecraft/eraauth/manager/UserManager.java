@@ -1,9 +1,7 @@
-package org.promisedland.minecraft.manager;
+package org.promisedland.minecraft.eraauth.manager;
 
 import com.aventrix.jnanoid.jnanoid.NanoIdUtils;
-import org.promisedland.minecraft.utils.DataBase;
-
-import java.sql.SQLException;
+import org.promisedland.minecraft.eraauth.utils.DataBase;
 
 public class UserManager {
     public static String getPassword(String username) {

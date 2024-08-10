@@ -1,9 +1,7 @@
-package org.promisedland.minecraft.manager;
+package org.promisedland.minecraft.eraauth.manager;
 
-import org.promisedland.minecraft.utils.MBCrypt;
-import org.promisedland.minecraft.utils.Redis;
-
-import java.sql.SQLException;
+import org.promisedland.minecraft.eraauth.utils.MBCrypt;
+import org.promisedland.minecraft.eraauth.utils.Redis;
 
 public class LoginManager {
     public static boolean isPlayerLogin(String username){
